@@ -1,0 +1,154 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  padding-bottom: 60px;
+  min-height: 100vh;
+  background-color: rgb(96, 139, 168);
+}
+
+/*all css for header*/
+header {
+  background-color: rgb(96, 139, 168);
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 80px;
+}
+
+a.logo {
+  /*target logotype*/
+  text-decoration: none;
+  color: white;
+  font-family: ;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+nav.navbar {
+  /*target the navbar*/
+
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-right: 3rem;
+  font-size: 1rem;
+}
+
+ul.navlist {
+  display: flex;
+}
+
+/*a.navlink target the nav links portfolio, about me and contact*/
+a.navlink:hover {
+  color: #f29713;
+}
+a.navlink {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
+/*end of css for header*/
+
+/*css for homepage*/
+/*hello on homepage*/
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+p.presentation {
+  padding-left: 100px;
+  width: 200px;
+  color: white;
+}
+.herelink {
+  /*the word "here", is a link to portfolio page*/
+  color: rgb(17, 46, 61);
+  text-decoration: none;
+}
+/*end of css for homepage*/
+
+/*css for portfolio page*/
+/*end of css for portfolio*/
+
+/*css for about me page*/
+p.aboutmeparagraph {
+  width: 400px;
+  padding-left: 200px;
+}
+img.profilbild {
+  display: flex;
+  flex-direction: row;
+  padding-right: 200px;
+}
+.profilbild.jpg.jpg {
+  width: 500px;
+}
+/*end of css for about me page*/
+
+/*css for contact me page*/
+ul.contacticons {
+  display: flex;
+  flex-direction: row;
+  padding-left: 7rem;
+  text-align: center;
+}
+.iconphone {
+  color: black;
+  font-size: 4rem;
+  padding-right: 60px;
+}
+
+.iconenvelope {
+  color: black;
+  font-size: 4rem;
+  padding-right: 60px;
+}
+
+.iconlinkedin {
+  color: black;
+  font-size: 4rem;
+  padding-right: 60px;
+}
+
+.iconinsta {
+  color: black;
+  font-size: 4rem;
+  padding-right: 60px;
+}
+
+.iconfacebook {
+  color: black;
+  font-size: 4rem;
+  padding-right: 60px;
+}
+figcaption {
+  text-align: center;
+}
+/*end of css for contact me page*/
+
+img {
+  padding-right: 60px;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+div.aboutelements {
+  display: flex;
+  flex-direction: row;
+}
+
+input.message {
+  width: 140px;
+  height: 150px;
+}
