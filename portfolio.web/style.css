@@ -13,32 +13,26 @@ header {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  height: 80px;
+  height: 90px;
+  display: flex;
 }
 
 a.logo {
   /*target logotype*/
   text-decoration: none;
   color: white;
-  font-family: ;
+  font-family: "Gloock", serif;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-top: 30px;
 }
 
-ul {
+/*target ul with all navlinks*/
+ul.navlinks {
   list-style: none;
   text-decoration: none;
-}
-
-nav.navbar {
-  /*target the navbar*/
-
-  margin-top: 0px;
-  padding-top: 30px;
-  padding-right: 3rem;
-  font-size: 1rem;
-}
-
-ul.navlist {
   display: flex;
+  padding-top: 20px;
 }
 
 /*a.navlink target the nav links portfolio, about me and contact*/
@@ -55,23 +49,53 @@ a.navlink {
 /*end of css for header*/
 
 /*css for homepage*/
-/*hello on homepage*/
-h1 {
-  font-family: sans-serif;
-  text-align: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+/*section named home on home page*/
+section.home {
+  display: grid;
+  grid-template-areas: "text text";
+}
+
+h1.home {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 90px;
+  padding-left: 80px;
+  padding-right: 200px;
+  margin-top: 90px;
   color: white;
 }
+
+main {
+  background-color: gold;
+  grid-column: 1 / 3;
+  width: 60%;
+}
+aside {
+  background-color: aqua;
+  grid-column: 3 / 4;
+  width: 30%;
+  max-width: 200px;
+  min-width: 150px;
+  float: right;
+}
+
 p.presentation {
-  padding-left: 100px;
   width: 200px;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 .herelink {
   /*the word "here", is a link to portfolio page*/
   color: rgb(17, 46, 61);
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+a.contactbuttun {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  border: ;
 }
 /*end of css for homepage*/
 
@@ -82,6 +106,8 @@ p.presentation {
 p.aboutmeparagraph {
   width: 400px;
   padding-left: 200px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 img.profilbild {
   display: flex;
@@ -152,3 +178,5 @@ input.message {
   width: 140px;
   height: 150px;
 }
+/*css for footer*/
+/*end of css for footer*/
