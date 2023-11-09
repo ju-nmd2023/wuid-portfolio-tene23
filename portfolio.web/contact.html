@@ -5,45 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <!---link in fontawesome-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
-         <!--länkar in fonten Montserrat-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-       
-  </head>
+     <!--link in fonten Montserrat,used in navbar links-->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+       rel="stylesheet" />
+     <!--link in font Gloock, used in logo-->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Gloock&display=swap"
+       rel="stylesheet" />
+     <!--link in the font Barlow, used for h1-->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap"
+       rel="stylesheet" />
   <body>
     <header>
-      <!---div defines a section, class target this area, the heade. Class can be used multiple times-->
-      <div id="header">
-        <!--nav defines navigation links. I target this area with a class-->
-        <nav class="navbar">
+      <a class="logo" href="index.html">Nellie Thell</a>
+      <nav>
+        <ul class="navlinks">
+          <!---div defines a section, class target this area, the heade. Class can be used multiple times-->
+          <!--nav defines navigation links. I target this area with a class-->
+
           <!--Navbar, stilas med css-->
-          <p>
-            <a class="logo" href="index.html">Nellie Thell</a>
-          </p>
 
           <!--ul, unordered list, with list elements-->
-          <ul class="navlist">
-            <li><a class="navlink" href="portfolio.html">Portfolio</a></li>
-            <li><a class="navlink" href="aboutme.html">About me</a></li>
-            <li><a class="navlink" href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+
+          <li><a class="navlink" href="portfolio.html">Portfolio</a></li>
+          <li><a class="navlink" href="aboutme.html">About me</a></li>
+          <li><a class="navlink" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <h1>LET´S  GET IN CONTACT</h1>
-      <h2>WRITE ME A MESSAGE</h2>
+      <h1 class="contactme">LET´S WORK TOGETHER</h1>
+      <h2 class="message">WRITE ME A MESSAGE</h2>
       <!--I target this unordered list with a class called contacticons-->
       <!--put a class on this paragraph to reach it in css-->
+      
+
+    
+      <!--form to cantact me-->
+      <!---Line 73-78 of code was adapted from https://www.w3schools.com/html/html_forms.asp-->
+      <!--Line 73-78 of code was added by courtsey of Nellie Thell-->
+      <!--An <input> element can be displayed in many ways, depending on the type attribute, in this 
+        case the type attribute is "text, which creates a box where you can put, text".-->
+      <!--The <label> tag defines a label name, for example "first name".
+      The <label> element is useful for screen-reader users, because the screen-reader will read out 
+      loud the label when the user focuses on the input element.-->
+
+
+      <form>
+        <!--Label name for the textbox "first name"-->
+        <label for="fname">First name:</label><br>
+        <!--this is the textbox which belong to the label first name-->
+        <input type="text" id="fname" name="fname"><br>
+        <!--last name-->
+        <label for="fname">Last name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <!--email-->
+        <label for="fname">Email:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <!--message-->
+        <label for="fname">Message:</label><br>
+        <input class="message" type="text" id="fname" name="fname"><br>
+        <label for="button">Send</label>
+        <input type="button">
+    </main>
+    <aside>
       <ul class="contacticons">
         <li>
           <i class="fa-solid fa-phone iconphone"></i>
@@ -73,34 +107,7 @@
           </a>
         </li>
       </ul>
-
-    
-      <!--form to cantact me-->
-      <!---Line 73-78 of code was adapted from https://www.w3schools.com/html/html_forms.asp-->
-      <!--Line 73-78 of code was added by courtsey of Nellie Thell-->
-      <!--An <input> element can be displayed in many ways, depending on the type attribute, in this 
-        case the type attribute is "text, which creates a box where you can put, text".-->
-      <!--The <label> tag defines a label name, for example "first name".
-      The <label> element is useful for screen-reader users, because the screen-reader will read out 
-      loud the label when the user focuses on the input element.-->
-
-
-      <form>
-        <!--Label name for the textbox "first name"-->
-        <label for="fname">First name:</label><br>
-        <!--this is the textbox which belong to the label first name-->
-        <input type="text" id="fname" name="fname"><br>
-        <!--last name-->
-        <label for="fname">Last name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <!--email-->
-        <label for="fname">Email:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <!--message-->
-        <label for="fname">Message:</label><br>
-        <input class="message" type="text" id="fname" name="fname"><br>
-    </main>
-
+    </aside>
     <footer>
       <ul>
         <li>
