@@ -134,7 +134,7 @@ h1.aboutme {
 p.aboutmeparagraph {
   width: 400px;
   padding-left: 250px;
-  padding-top: ;
+  margin-top: 0px;
   font-family: "Montserrat", sans-serif;
   color: white;
 }
@@ -159,7 +159,7 @@ h1.contactme {
 }
 
 .writeme {
-  margin-left: 150px;
+  margin-left: 130px;
 }
 
 .message {
@@ -167,6 +167,11 @@ h1.contactme {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   border: 1px solid white;
+  border-radius: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 ul.contacticons {
