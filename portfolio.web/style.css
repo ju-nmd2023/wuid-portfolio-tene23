@@ -227,3 +227,35 @@ form {
 }
 /*css for footer*/
 /*end of css for footer*/
+
+/*mediaqueries for ipad air-landingpage*/
+@media screen and (max-width: 820px) {
+  h1.home {
+    color: blue;
+  }
+}
+
+/*mediaqueries for ipad air-portfolio page*/
+@media screen and (max-width: 820px) {
+}
+
+/*mediaqueries for ipad air-about me page*/
+@media screen and (max-width: 820px) {
+}
+
+/*mediaqueries for ipad air-contact page*/
+@media screen and (max-width: 820px) {
+}
+
+/*mediaqueries for iphone 12 pro-landingpage*/
+@media screen and (max-width: 390px) {
+}
+/*mediaqueries for iphone 12 pro-portfolio page*/
+@media screen and (max-width: 390px) {
+}
+/*mediaqueries for iphone 12 pro-about me page*/
+@media screen and (max-width: 390px) {
+}
+/*mediaqueries for iphone 12 pro-contact page*/
+@media screen and (max-width: 390px) {
+}
