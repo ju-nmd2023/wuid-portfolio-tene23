@@ -36,6 +36,8 @@ header {
   border: 1px solid white;
   justify-content: space-between;
   margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 a.logo {
@@ -104,10 +106,15 @@ p.presentation {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   border: 1px solid white;
+  border-radius: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .contact {
-  margin-left: 250px;
+  margin-left: 212px;
 }
 /*end of css for homepage*/
 
