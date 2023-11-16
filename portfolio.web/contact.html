@@ -5,120 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-     <!--link in fonten Montserrat,used in navbar links-->
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-     <link
-       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-       rel="stylesheet" />
-     <!--link in font Gloock, used in logo-->
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-     <link
-       href="https://fonts.googleapis.com/css2?family=Gloock&display=swap"
-       rel="stylesheet" />
-     <!--link in the font Barlow, used for h1-->
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-     <link
-       href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap"
-       rel="stylesheet" />
+    <!--link in fonten Montserrat,used in navbar links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet" />
+    <!--link in font Gloock, used in logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloock&display=swap"
+      rel="stylesheet" />
+    <!--link in the font Barlow, used for h1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap"
+      rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css" />
+  </head>
   <body>
     <header>
       <a class="logo" href="index.html">Nellie Thell</a>
-      <nav>
-        <ul class="navlinks">
-          <!---div defines a section, class target this area, the heade. Class can be used multiple times-->
-          <!--nav defines navigation links. I target this area with a class-->
 
-          <!--Navbar, stilas med css-->
+      <ul class="navlinks">
+        <!---div defines a section, class target this area, the heade. Class can be used multiple times-->
+        <!--nav defines navigation links. I target this area with a class-->
 
-          <!--ul, unordered list, with list elements-->
+        <!--Navbar, stilas med css-->
 
-          <li><a class="navlink" href="portfolio.html">Portfolio</a></li>
-          <li><a class="navlink" href="aboutme.html">About me</a></li>
-          <li><a class="navlink" href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        <!--ul, unordered list, with list elements-->
+
+        <li>
+          <a class="navlinkportfolio" href="portfolio.html">Portfolio</a>
+        </li>
+        <li><a class="navlinkaboutme" href="aboutme.html">About me</a></li>
+        <li><a class="navlinkcontact" href="contact.html">Contact</a></li>
+      </ul>
     </header>
 
     <main>
-      <h1 class="contactme">LET´S WORK TOGETHER</h1>
-      <div class="writeme">
-        <a href="contact.html" class="message">WRITE ME A MESSAGE</a>
-      </div>
-      <!--I target this unordered list with a class called contacticons-->
-      <!--put a class on this paragraph to reach it in css-->
-      
+      <div class="leftsection">
+        <h1 class="contactme">LET´S WORK TOGETHER</h1>
+        <div class="writeme">
+          <a href="contact.html" class="message">WRITE ME A MESSAGE</a>
+        </div>
+        <!--I target this unordered list with a class called contacticons-->
+        <!--put a class on this paragraph to reach it in css-->
 
-    
-      <!--form to cantact me-->
-      <!---Line 73-78 of code was adapted from https://www.w3schools.com/html/html_forms.asp-->
-      <!--Line 73-78 of code was added by courtsey of Nellie Thell-->
-      <!--An <input> element can be displayed in many ways, depending on the type attribute, in this 
+        <!--form to cantact me-->
+        <!---Line 73-78 of code was adapted from https://www.w3schools.com/html/html_forms.asp-->
+        <!--Line 73-78 of code was added by courtsey of Nellie Thell-->
+        <!--An <input> element can be displayed in many ways, depending on the type attribute, in this 
         case the type attribute is "text, which creates a box where you can put, text".-->
-      <!--The <label> tag defines a label name, for example "first name".
+        <!--The <label> tag defines a label name, for example "first name".
       The <label> element is useful for screen-reader users, because the screen-reader will read out 
       loud the label when the user focuses on the input element.-->
 
+        <form>
+          <!--Label name for the textbox "first name"-->
+          <label for="fname">First name:</label><br />
+          <!--this is the textbox which belong to the label first name-->
+          <input type="text" id="fname" name="fname" /><br />
+          <!--last name-->
+          <label for="fname">Last name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <!--email-->
+          <label for="fname">Email:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <!--message-->
+          <label for="fname">Message:</label><br />
+          <input class="message" type="text" id="fname" name="fname" /><br />
+          <label for="button">Send</label>
+          <input type="button" />
+        </form>
+      </div>
+      <div class="rightsection">
+        <ul class="contacticons">
+          <li>
+            <img
+              class="phone"
+              src="bilder/phone-solid.png"
+              alt="image of a white phone" />
+            <figcaption>0703290539</figcaption>
+          </li>
 
-      <form>
-        <!--Label name for the textbox "first name"-->
-        <label for="fname">First name:</label><br>
-        <!--this is the textbox which belong to the label first name-->
-        <input type="text" id="fname" name="fname"><br>
-        <!--last name-->
-        <label for="fname">Last name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <!--email-->
-        <label for="fname">Email:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <!--message-->
-        <label for="fname">Message:</label><br>
-        <input class="message" type="text" id="fname" name="fname"><br>
-        <label for="button">Send</label>
-        <input type="button">
+          <li>
+            <img
+              class="envelope"
+              src="bilder/envelope-solid.png"
+              alt="image of a white envelope" />
+            <figcaption>nellie.thell@hotmail.com</figcaption>
+          </li>
+          <!---target blank make the browser open the link a new page-->
+          <li>
+            <a
+              href="https://se.linkedin.com/in/nellie-thell-510691266"
+              target="_blank"
+              ><img
+                class="linkedin"
+                src="bilder/linkedin-in.png"
+                alt="image of linkedin logo" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/nelliethell/" target="_blank">
+              <img
+                class="instagram"
+                src="bilder/instagram.png"
+                alt="image of instagram logo" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/nellie.thell/" target="_blank"
+              ><img
+                class="facebook"
+                src="bilder/facebookicon.png"
+                alt="image of facebook logo" />
+            </a>
+          </li>
+        </ul>
+      </div>
     </main>
-    <aside>
-      <ul class="contacticons">
-        <li>
-          <i class="fa-solid fa-phone iconphone"></i>
-          <figcaption>0703290539</figcaption>
-        </li>
 
-        <li>
-          <i class="fa-solid fa-envelope iconenvelope"></i>
-          <figcaption>nellie.thell@hotmail.com</figcaption>
-        </li>
-        <!---target blank make the browser open the link a new page-->
-        <li>
-          <a
-            href="https://se.linkedin.com/in/nellie-thell-510691266"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin iconlinked iconlinkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/nelliethell/" target="_blank"
-            ><i class="fa-brands fa-instagram iconinsta iconinsta"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/nellie.thell/" target="_blank"
-            ><i class="fa-brands fa-facebook iconfacebook iconfacebook"></i>
-          </a>
-        </li>
-      </ul>
-    </aside>
     <footer>
       <ul>
         <li>
-          <i class="fa-solid fa-phone"></i>
-          <p>0703290539</p>
+          <img
+            class="phonefooter"
+            src="bilder/phone-solid.png"
+            alt="image of a white phone" />
+          <p class="footertext">0703290539</p>
         </li>
         <li>
-          <i class="fa-solid fa-envelope"></i>
-          <p>nellie.thell@hotmail.com</p>
+          <img class="envelopefooter" src="bilder/envelope-solid.png" alt="" />
+          <p class="footertext">nellie.thell@hotmail.com</p>
         </li>
       </ul>
     </footer>

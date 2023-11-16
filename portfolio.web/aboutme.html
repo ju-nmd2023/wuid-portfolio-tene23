@@ -26,57 +26,65 @@
   <body>
     <header>
       <a class="logo" href="index.html">Nellie Thell</a>
-      <nav>
-        <ul class="navlinks">
-          <!---div defines a section, class target this area, the heade. Class can be used multiple times-->
-          <!--nav defines navigation links. I target this area with a class-->
 
-          <!--Navbar, stilas med css-->
+      <ul class="navlinks">
+        <!---div defines a section, class target this area, the heade. Class can be used multiple times-->
+        <!--nav defines navigation links. I target this area with a class-->
 
-          <!--ul, unordered list, with list elements-->
+        <!--Navbar, stilas med css-->
 
-          <li><a class="navlink" href="portfolio.html">Portfolio</a></li>
-          <li><a class="navlink" href="aboutme.html">About me</a></li>
-          <li><a class="navlink" href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        <!--ul, unordered list, with list elements-->
+
+        <li>
+          <a class="navlinkportfolio" href="portfolio.html">Portfolio</a>
+        </li>
+        <li><a class="navlinkaboutme" href="aboutme.html">About me</a></li>
+        <li><a class="navlinkcontact" href="contact.html">Contact</a></li>
+      </ul>
     </header>
 
     <main>
+      <div class="leftsection">
       <h1 class="aboutme">ABOUT<br> ME</h1>
 
       <p class="aboutmeparagraph">
         My name is Nellie Thell and I grew up in a small city called Tranås,
         located on the right side of Vättern. My interest for graphic design and
-        webdevelopment was not always clear. After I graduated from highschool I
+        webdevelopment was not always clear.
+        <b></b>
+        After I graduated from highschool I
         moved to the westcoast to begin studies at university, a program called
         Digital media, because I was vey interested in their filmmaking courses,
         although courses within graphic design and webdevelopment and design was
-        also included. During the first year I realized this school was not for
+        also included. 
+        <b></b>
+        During the first year I realized this school was not for
         me but I really enjoyed graphic design and webdevelopment. When the
         summer came I dropped out, sent several applications to other universities
         and got accepted to School of engineering in Jönköping, the New media
         design program, where I learn about graphic and web design, and development.
       </p>
-    </main>
-    <aside class="aboutme">
+    </div>
+    <div class="rightsection">
       <img
         src="bilder/profilbild.jpg"
         class="profilbild"
         alt="profilbild"
-        width="300px" />
-    </aside>
-
+        width="250px" />
+      </div>
+    </main>
     <footer>
-      <!--div defines a section, i target this section with a class-->
       <ul>
         <li>
-          <i class="fa-solid fa-phone"></i>
-          <p>0703290539</p>
+          <img
+            class="phonefooter"
+            src="bilder/phone-solid.png"
+            alt="image of a white phone" />
+          <p class="footertext">0703290539</p>
         </li>
         <li>
-          <i class="fa-solid fa-envelope"></i>
-          <p>nellie.thell@hotmail.com</p>
+          <img class="envelopefooter" src="bilder/envelope-solid.png" alt="" />
+          <p class="footertext">nellie.thell@hotmail.com</p>
         </li>
       </ul>
     </footer>
