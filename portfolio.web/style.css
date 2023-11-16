@@ -177,11 +177,16 @@ p.presentation {
   padding-top: 150px;
 }
 /*css for h3 headlines*/
-h3.book {
+a.book {
   font-family: "Barlow Condensed", sans-serif;
   color: white;
-  padding-top: 200px;
+  padding-top: 5rem;
+  margin-top: 100px;
   font-size: 50px;
+  text-decoration: none;
+}
+a.book:hover {
+  color: #f29713;
 }
 h3.stylization {
   font-family: "Barlow Condensed", sans-serif;
@@ -279,31 +284,32 @@ ul.contacticons {
 /*css for social media icons*/
 .phone {
   color: white;
-  width: 1rem;
+  width: 3rem;
   padding-right: 60px;
+  padding-top: 100px;
 }
 
 .envelope {
   color: white;
-  width: 1rem;
+  width: 3rem;
   padding-right: 60px;
 }
 
 .linkedin {
   color: white;
-  width: 1rem;
+  width: 3rem;
   padding-right: 60px;
 }
 
 .instagram {
   color: white;
-  width: 1rem;
+  width: 3rem;
   padding-right: 60px;
 }
 
 .facebook {
   color: white;
-  width: 1rem;
+  width: 3rem;
   padding-right: 60px;
 }
 figcaption {
@@ -311,6 +317,48 @@ figcaption {
 }
 /*end of css for contact me page*/
 
+/*css for book project page*/
+.bookmockupproject {
+  width: 600px;
+  padding-top: 100px;
+  padding-right: 0px;
+  padding-left: 40px;
+}
+.bookmockup2project {
+  width: 600px;
+  padding-top: 100px;
+  padding-right: 0px;
+}
+h3.bookproject {
+  font-family: "Barlow Condensed", sans-serif;
+  color: white;
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+p.bookproject {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+  width: 600px;
+}
+.backbutton {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+/*end of css for bookproject page*/
+/*css for footer*/
 img {
   padding-right: 60px;
 }
