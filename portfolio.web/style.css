@@ -14,7 +14,9 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
+main.portfoliopage {
+  grid-template-columns: 1fr;
+}
 /* .portfolio-main {
   grid-template-areas:
     "bookmockup booktext"
@@ -161,42 +163,75 @@ h1.home {
 /*end of css for homepage*/
 
 /*css for portfolio page*/
+div.content {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+/*css for div*/
+div.bookimg {
+  padding-top: 7rem;
+  padding-left: 19rem;
+  padding-right: 0rem;
+}
+div.bookh3 {
+  padding-top: 12rem;
+}
+div.stilizationh3 {
+  padding-left: 34rem;
+  padding-top: 8rem;
+}
+div.stilizationimg {
+  padding-top: 3rem;
+}
+div.magazineimg {
+  padding-left: 19rem;
+  padding-top: 3rem;
+}
+div.magazineh3 {
+  padding-top: 5rem;
+}
+div.spongebobh3 {
+  padding-left: 30rem;
+  padding-top: 7rem;
+}
+div.spongebobimg {
+  padding-top: 3rem;
+}
+div.webimg {
+  padding-top: 4rem;
+  padding-left: 19rem;
+}
+div.webh3 {
+  padding-top: 7rem;
+}
 /*css for images*/
 .ctmockup {
   width: 400px;
-  padding-left: 280px;
-  padding-top: 150px;
-  padding-bottom: 20px;
-  grid-area: bookmockup;
 }
 .landmockup {
   width: 400px;
-  padding-top: 150px;
-  padding-left: 280px;
   grid-area: magazine;
 }
 .stiliseringmockup {
   width: 300px;
-  padding-top: 10rem;
+  padding-top: 3rem;
   grid-area: stylization;
 }
 .spongemockup {
   width: 300px;
-  padding-top: 100px;
+
   grid-area: cartoon;
 }
 .webmockup {
   width: 400px;
-  padding-left: 280px;
-  padding-top: 150px;
   grid-area: webmockup;
 }
 /*css for h3 headlines*/
+.bookh3 {
+}
 a.book {
   font-family: "Barlow Condensed", sans-serif;
   color: white;
-  padding-top: 5rem;
-  margin-top: 100px;
   font-size: 50px;
   text-decoration: none;
   grid-area: booktext;
@@ -207,30 +242,24 @@ a.book:hover {
 h3.stylization {
   font-family: "Barlow Condensed", sans-serif;
   color: white;
-  padding-top: 150px;
-  padding-left: 400px;
   font-size: 50px;
   grid-area: styletext;
 }
 h3.magazine {
   font-family: "Barlow Condensed", sans-serif;
   color: white;
-  padding-top: 100px;
   font-size: 50px;
   grid-area: magazinetext;
 }
 h3.cartoonposter {
   font-family: "Barlow Condensed", sans-serif;
   color: white;
-  padding-top: 150px;
-  padding-left: 400px;
   font-size: 50px;
   grid-area: cartoontext;
 }
 h3.webbdesign {
   font-family: "Barlow Condensed", sans-serif;
   color: white;
-  padding-top: 120px;
   font-size: 50px;
   grid-area: webtext;
 }
@@ -353,9 +382,7 @@ figcaption {
   padding-top: 100px;
   padding-right: 0px;
 }
-.bookh3 {
-  margin-top: 15rem;
-}
+
 h3.bookproject {
   font-family: "Barlow Condensed", sans-serif;
   color: white;
@@ -448,68 +475,52 @@ form {
   .rightsection {
     grid-column: 1;
   }
-  /*css for images*/
-  .ctmockup {
-    width: 400px;
-    padding-left: 280px;
-    padding-top: 150px;
-    padding-bottom: 20px;
+  div.content {
+    grid-template-columns: 1fr;
+    display: grid;
   }
-  .landmockup {
-    width: 400px;
-    padding-top: 150px;
-    padding-left: 280px;
+
+  /*css for div*/
+  div.bookimg {
+    padding-top: 6rem;
+    padding-left: 12rem;
+    padding-right: 0rem;
   }
-  .stiliseringmockup {
-    width: 300px;
-    padding-top: 10rem;
+  div.bookh3 {
+    padding-top: 1rem;
+    padding-left: 15rem;
   }
-  .spongemockup {
-    width: 300px;
-    padding-top: 100px;
+  div.stilizationh3 {
+    padding-left: 19rem;
+    padding-top: 3rem;
   }
-  .webmockup {
-    width: 400px;
-    padding-left: 280px;
-    padding-top: 150px;
+  img.stiliseringmockup {
+    padding-left: 17rem;
+    padding-top: 0rem;
   }
-  /*css for h3 headlines*/
-  a.book {
-    font-family: "Barlow Condensed", sans-serif;
-    color: white;
-    padding-top: 5rem;
-    margin-top: 100px;
-    font-size: 50px;
-    text-decoration: none;
+  div.magazineimg {
+    padding-left: 14rem;
+    padding-top: 6rem;
   }
-  a.book:hover {
-    color: #f29713;
+  div.magazineh3 {
+    padding-left: 20rem;
+    padding-top: 0rem;
   }
-  h3.stylization {
-    font-family: "Barlow Condensed", sans-serif;
-    color: white;
-    padding-top: 150px;
-    padding-left: 400px;
-    font-size: 50px;
+  div.spongebobh3 {
+    padding-left: 19rem;
+    padding-top: 3rem;
   }
-  h3.magazine {
-    font-family: "Barlow Condensed", sans-serif;
-    color: white;
-    padding-top: 100px;
-    font-size: 50px;
+  div.spongebobimg {
+    padding-left: 17rem;
+    padding-top: 0rem;
   }
-  h3.cartoonposter {
-    font-family: "Barlow Condensed", sans-serif;
-    color: white;
-    padding-top: 150px;
-    padding-left: 400px;
-    font-size: 50px;
+  div.webimg {
+    padding-left: 14rem;
+    padding-top: 6rem;
   }
-  h3.webbdesign {
-    font-family: "Barlow Condensed", sans-serif;
-    color: white;
-    padding-top: 120px;
-    font-size: 50px;
+  div.webh3 {
+    padding-left: 20rem;
+    padding-top: 0rem;
   }
 }
 
@@ -579,6 +590,46 @@ form {
 }
 /*mediaqueries for iphone 12 pro-portfolio page*/
 @media screen and (max-width: 390px) {
+  /*css for div*/
+  div.bookimg {
+    padding-top: 6rem;
+    padding-left: 8rem;
+  }
+  div.bookh3 {
+    padding-left: 12rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 2rem;
+  }
+  div.stilizationh3 {
+    padding-left: 13rem;
+    padding-top: 0rem;
+  }
+  img.stiliseringmockup {
+    padding-left: 10rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 3rem;
+  }
+  div.magazineimg {
+    padding-left: 7rem;
+  }
+  div.magazineh3 {
+    padding-left: 15rem;
+    border-bottom: 1px solid white;
+  }
+  div.spongebobh3 {
+    padding-left: 12rem;
+  }
+  div.spongebobimg {
+    padding-left: 11rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 3rem;
+  }
+  div.webimg {
+    padding-left: 6rem;
+  }
+  div.webh3 {
+    padding-left: 14rem;
+  }
 }
 /*mediaqueries for iphone 12 pro-about me page*/
 @media screen and (max-width: 390px) {
