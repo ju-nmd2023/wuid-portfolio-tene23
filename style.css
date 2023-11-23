@@ -152,18 +152,20 @@ h1.home {
   font-family: "Montserrat", sans-serif;
 }
 
-.contactbuttun {
+.contactbutton {
   text-decoration: none;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   border: 1px solid white;
   border-radius: 20px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   margin-bottom: 10rem;
+}
+a.contactbutton:hover {
 }
 
 .contact {
@@ -329,36 +331,58 @@ h1.contactme {
   margin-bottom: 10rem;
 }
 
-figcaption {
+figcaption.phonefig {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 2rem;
+}
+figcaption.envelopefig {
   color: white;
   font-family: "Montserrat", sans-serif;
 }
 /*csss for icons div*/
+div.topicons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 60%;
+}
+
+div.bottomicons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 /*css for social media icons*/
 .phone {
   color: white;
   width: 3rem;
+  margin-left: 3rem;
+  margin-top: 5rem;
 }
 
 .envelope {
   color: white;
   width: 3rem;
+  margin-left: 4rem;
+  margin-top: 5.3rem;
 }
 
 .linkedin {
   color: white;
   width: 3rem;
+  padding-top: 3rem;
 }
 
 .instagram {
   color: white;
   width: 3rem;
+  padding-top: 3rem;
 }
 
 .facebook {
   color: white;
   width: 2rem;
+  padding-top: 3rem;
 }
 
 /*end of css for contact me page*/
@@ -410,6 +434,23 @@ p.bookproject {
 }
 /*end of css for bookproject page*/
 /*css for footer*/
+div.darkmode {
+}
+.darkmodebutton {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 9rem;
+}
 
 li {
   text-decoration: none;
