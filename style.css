@@ -334,12 +334,7 @@ figcaption {
   font-family: "Montserrat", sans-serif;
 }
 /*csss for icons div*/
-div.phone {
-  width: 3rem;
-}
-div.envelope
-div.linkedin
-div.instagram
+
 /*css for social media icons*/
 .phone {
   color: white;
@@ -363,7 +358,7 @@ div.instagram
 
 .facebook {
   color: white;
-  width: 3rem;
+  width: 2rem;
 }
 
 /*end of css for contact me page*/
