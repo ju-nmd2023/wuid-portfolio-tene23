@@ -164,8 +164,10 @@ h1.home {
   padding-right: 1rem;
   padding-left: 1rem;
   margin-bottom: 10rem;
+  transition: all 0.2s ease-in-out;
 }
 a.contactbutton:hover {
+  transform: scale(1.5);
 }
 
 .contact {
