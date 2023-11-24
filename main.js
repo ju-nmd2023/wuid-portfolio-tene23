@@ -1,6 +1,16 @@
-const darkmodeButton = document.getElementByClassName("darkmode-button");
-const bodyElement = document.querySelector("body");
+const darkmodeButton = document.getElementById("darkmode-button");
+const bodyElement = document.querySelector(".dark-mode");
 
-darkmodeButton.addEventlistener("click", function (event) {
-  bodyElement.style.backgroundColor = "#000";
+let i = 0;
+darkmodeButton.addEventListener("click", function (event) {
+  if (i === 0) {
+    {
+      console.log("hi");
+      bodyElement.style.backgroundColor = "#000";
+      i = 1;
+    }
+  } else {
+    bodyElement.style.backgroundColor = "rgb(96, 139, 168)";
+    i = 0;
+  }
 });

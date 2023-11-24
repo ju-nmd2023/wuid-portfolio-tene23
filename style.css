@@ -438,7 +438,7 @@ p.bookproject {
 /*css for footer*/
 div.darkmode {
 }
-.darkmodebutton {
+#darkmode-button {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 25px;
   color: white;
@@ -742,6 +742,8 @@ form {
   animation-name: opacitystlye;
   animation-duration: 3s;
 }
+/*darkmode css*/
+
 /*keyframes for stylization h3 in portfolio page*/
 @keyframes slideinstyle {
   0% {
